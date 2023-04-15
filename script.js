@@ -16,7 +16,7 @@ function createGrid (x) {
     if (e.shiftKey) {
         box.style.background = "white";
     } else {
-        box.style.background = "black";
+        box.style.background = `rgb(${Math.floor(Math.random()*255)}, ${Math.floor(Math.random()*255)}, ${Math.floor(Math.random()*255)})`;
     };
 }));
 };
