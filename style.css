@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sketch-box {
+    height: 480px;
+    width: 480px;
+    border: solid black 8px;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 15px .1px black;
+}
+
+button {
+    height: 20px;
+    margin: 10px;
+}
